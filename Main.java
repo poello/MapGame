@@ -48,7 +48,7 @@ public class Main {
         int loc = 1;
         while(true) {
             System.out.println(locations.get(loc).getDescription());
-            tempExit.remove("W");
+          
             if(loc == 0) {
                 break;
             }
